@@ -1,0 +1,80 @@
+body {
+    background-image: url(images/rose.png); 
+    background-size:cover;
+    background-position: center;
+    background-repeat: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    margin: 0;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.game-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button.imme {
+    height: 100px;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    margin: 0 10px 20px 10px;
+    cursor: pointer;
+}
+
+button.imme img {
+    height: 100%;
+    width: auto;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button.reset {
+    height: 50px;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    margin-top: 20px;
+}
+
+button.reset img {
+    height: 100px;
+    width: auto;
+    border: 3px;
+    cursor: pointer;
+}
+
+p {
+    color: white;
+}
+
+.result {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.move-icon {
+    height: 70px;
+}
+
+.score {
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
